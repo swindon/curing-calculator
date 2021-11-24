@@ -1,0 +1,10 @@
+{
+    "name": "Weather",
+    "short_name" : "Weather",
+    "start_url": "index.html",
+    "scope" : "./",
+    "icons": [],
+    "theme_color": "rgb(3,169,244)",
+    "background_color": "rgb(186,104,200)",
+    "display": "standalone"
+}
