@@ -17,25 +17,25 @@
         <div class="px-5 mb-3">
             <label for="ppm">Cure Level (PPM)</label>
             <div>
-                <input @change="update_calc()" @input="update_calc()" max="200" min="25" data-name="ppm" step="25" type="number" value="150"  class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
+                <input @change="update_calc()" @input="update_calc()" max="200" min="25" data-name="ppm" step="25" type="number" pattern="^[0-9\.]+" value="150"  class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
             </div>
         </div>
         <div class="px-5 mb-3">
             <label for="meat_amt">Meat Weight (Kg)</label>
             <div>
-                <input @change="update_calc()" @input="update_calc()" min="0" data-name="meat_amt" type="number" value="1"  class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
+                <input @change="update_calc()" @input="update_calc()" min="0" data-name="meat_amt" type="number" pattern="^[0-9\.]+" value="1"  class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
             </div>
         </div>
         <div class="px-5 mb-3">
             <label for="brine_amt">Liquids (L)</label>
             <div>
-                <input @change="update_calc()" @input="update_calc()" min="0" data-name="brine_amt" type="number" value="0"  class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
+                <input @change="update_calc()" @input="update_calc()" min="0" data-name="brine_amt" type="number" pattern="^[0-9\.]+" value="0"  class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
             </div>
         </div>
         <div class="px-5 mb-3">
             <label for="thick_ness">Meat thickness (Cm)</label>
             <div>
-                <input @change="update_dims()" @input="update_dims()" min="0" data-name="thick_ness" type="number" value="2.5" class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
+                <input @change="update_dims()" @input="update_dims()" min="0" data-name="thick_ness" type="number" pattern="^[0-9\.]+" value="2.5" class="w-full py-2 px-3 mb-1 bg-gray-900 text-white border-b-2 border-gray-700 focus:outline-none focus:border-indigo-500 transition-colors">
             </div>
         </div>
         <div class="px-5 mb-5">
